@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Online Shopping in Pakistan: Fashion,Electronic and much more</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/5d2f8e5307.js" crossorigin="anonymous"></script>
+  <link rel="icon" href="Images/favicon.ico">
+</head>
+
+<body class="bg-[#f1f1f1]">
+
+  <!-- HEADER SECTION -->
+  <section class="bg-[#f85606]">
+    <header
+      class="flex justify-around h-48 sm:h-[4rem] items-center max-w-[90%] m-auto flex-col sm:flex-row text-white">
+      <div class="logo">
+        <img src="Images/logo.png" alt="logo" width="120px" height="120px" />
+      </div>
+
+      <div class="dropdown">
+        <select name="catg" id="catg"
+          class="text-white text-right bg-[#f85606] w-[100px] font-semibold border-none cursor-pointer">
+          <option value="1" class="bg-white text-black text-left">
+            Categories
+          </option>
+          <option value="2" class="bg-white text-black text-left">
+            MOBILES
+          </option>
+          <option value="3" class="bg-white text-black text-left">
+            LAPTOPS
+          </option>
+          <option value="4" class="bg-white text-black text-left">
+            COMPUTERS
+          </option>
+          <option value="5" class="bg-white text-black text-left">
+            IPADS
+          </option>
+          <option value="6" class="bg-white text-black text-left">
+            PLAYSTATIONS
+          </option>
+        </select>
+      </div>
+
+      <div class="search hidden lg:block">
+        <input type="text" class="w-[625px] h-10 rounded-xl placeholder:p-[15px] text-black border-transparent" placeholder="Search in Daraz" />
+        <i
+          class="fa-solid fa-search text-[#f85606] top-[18px] bg-[#ffe1d2] p-[6px] rounded w-[45px] text-center"></i>
+      </div>
+
+      <div class="login flex items-center hover:bg-red-900 p-2 rounded-md cursor-pointer">
+        <i class="fa-solid fa-user mr-[5px]"><a href="login.html"></a></i>
+        <p><a href="login.html">Login</a></p>
+        <p class="px-3">|</p>
+        <p><a href="login.html">Sign up</a></p>
+      </div>
+
+      <div class="globe flex items-center border-none">
+        <i class="fa-solid fa-globe mr-[1px]"></i>
+        <select name="country" id="country" class="text-white text-right bg-[#f85606] font-semibold border-transparent">
+          <option value="1" class="bg-white text-black text-left">EN</option>
+          <option value="2" class="bg-white text-black text-left">UR</option>
+        </select>
+      </div>
+
+      <div class="cart hidden sm:block hover:bg-red-900 p-2 rounded-md cursor-pointer">
+        <i class="fa-solid fa-cart-shopping text-2xl"></i>
+      </div>
+    </header>
+  </section>
+  <!-- LINE SECTION -->
+  <section>
+    <div
+      class="bar max-w-[90%] m-auto bg-[#fff1eb] text-center mt-5 flex flex-col sm:flex-row justify-between px-4 py-3 rounded-md hover:bg-[#f7dcd1] cursor-pointer">
+      <p>
+        <i class="fa-solid fa-check"></i>
+        Safe Payments
+      </p>
+      <p class="text-gray-300">|</p>
+      <p>
+        <i class="fa-solid fa-truck"></i>
+        Nationwide Delivery
+      </p>
+      <p class="text-gray-300">|</p>
+      <p>
+        <i class="fa-solid fa-rotate-left"></i>
+        Free & Easy Returns
+      </p>
+      <p class="text-gray-300">|</p>
+      <p>
+        <i class="fa-solid fa-tag fa-rotate-90"></i>
+        Best Price Guaranteed
+      </p>
+      <p class="text-gray-300">|</p>
+      <p>
+        <i class="fa-solid fa-circle-check"></i>
+        100% Authentic Products
+      </p>
+      <p class="text-gray-300">|</p>
+      <p>
+        <i class="fa-solid fa-house"></i>
+        Daraz Verified
+      </p>
+    </div>
+  </section>
+  <!-- BANNER SECTIOn -->
+
+  <section>
+    <div class="flex justify-center mt-5 mb-5">
+      <img src="Images/banner.jpg" alt="banner" class="shadow-lg hover:shadow-2xl cursor-pointer">
+    </div>
+  </section>
+
+  <!-- SHOPPING SECTION -->
+
+  <section class="max-w-[90%] m-auto">
+    <h1 class="text-[28px]">Just For You</h1>
+    <div class="shop flex justify-between items-center flex-col sm:flex-row">
+
+      <div class="shop-items bg-white border-2 border-gray-200 border-solid hover:border-gray-300 cursor-pointer hover:shadow-2xl">
+        <a href="Pages/shop1.html"><img src="Images/shop1.jpg" alt="shop1" width="200px"></a>
+        <p class="ml-2 mt-2 max-w-[200px]">Pairs Random Colors of Socks for Men</p>
+        <p class="text-[#f85606] text-2xl ml-2">Rs.289</p>
+        <i class="fa-solid fa-star ml-2"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star">(82)</i>
+      </div>
+
+      <div class="shop-items bg-white border-2 border-gray-200 border-solid hover:border-gray-300 cursor-pointer hover:shadow-2xl">
+        <a href="Pages/shop1.html"><img src="Images/shop2.jpeg" alt="shop2" width="200px"></a>
+        <p class="ml-2 mt-2 max-w-[200px]">Wood Cricket Bat in Red and Blue</p>
+        <p class="text-[#f85606] text-2xl ml-2">Rs.899</p>
+        <i class="fa-solid fa-star ml-2"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+        <i class="fa-regular fa-star">(73)</i>
+      </div>
+      
+      <div class="shop-items bg-white border-2 border-gray-200 border-solid hover:border-gray-300 cursor-pointer hover:shadow-2xl">
+        <a href="Pages/shop1.html"><img src="Images/shop3.jpg" alt="shop3" width="200px"></a>
+        <p class="ml-2 mt-2 max-w-[200px]">Islamic Wooden Black Clock for Wall</p>
+        <p class="text-[#f85606] text-2xl ml-2">Rs.750</p>
+        <i class="fa-solid fa-star ml-2"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star">(173)</i>
+      </div>
+
+      <div class="shop-items bg-white border-2 border-gray-200 border-solid hover:border-gray-300 cursor-pointer hover:shadow-2xl">
+        <a href="Pages/shop1.html"><img src="Images/shop4.jpeg" alt="shop4" width="200px"></a>
+        <a href="Pages/shop1.html"><p class="ml-2 mt-2 max-w-[200px]">Digital Black Watch for unisex</p></a>
+        <p class="text-[#f85606] text-2xl ml-2">Rs.3,750</p>
+        <i class="fa-solid fa-star ml-2"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star">(122)</i>
+      </div>
+
+      <div class="shop-items bg-white border-2 border-gray-200 border-solid hover:border-gray-300 cursor-pointer hover:shadow-2xl">
+        <a href="Pages/shop1.html"><img src="Images/shop5.jpeg" alt="shop5" width="200px"></a>
+        <p class="ml-2 mt-2 max-w-[200px]">Smart Watch for Andriod and Iphone</p>
+        <p class="text-[#f85606] text-2xl ml-2">Rs.37,250</p>
+        <i class="fa-solid fa-star ml-2"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star">(142)</i>
+      </div>
+
+      </div>
+
+      <div class="shop flex justify-between items-center flex-col-reverse sm:flex-row-reverse mt-5">
+      <div class="shop-items bg-white border-2 border-gray-200 border-solid hover:border-gray-300 cursor-pointer hover:shadow-2xl">
+        <a href="Pages/shop1.html"><img src="Images/shop1.jpg" alt="shop1" width="200px"></a>
+        <p class="ml-2 mt-2 max-w-[200px]">Pairs Random Colors of Socks for Men</p>
+        <p class="text-[#f85606] text-2xl ml-2">Rs.289</p>
+        <i class="fa-solid fa-star ml-2"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star">(82)</i>
+      </div>
+
+      <div class="shop-items bg-white border-2 border-gray-200 border-solid hover:border-gray-300 cursor-pointer hover:shadow-2xl">
+        <a href="Pages/shop1.html"><img src="Images/shop2.jpeg" alt="shop2" width="200px"></a>
+        <p class="ml-2 mt-2 max-w-[200px]">Wood Cricket Bat in Red and Blue</p>
+        <p class="text-[#f85606] text-2xl ml-2">Rs.899</p>
+        <i class="fa-solid fa-star ml-2"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+        <i class="fa-regular fa-star">(73)</i>
+      </div>
+      
+      <div class="shop-items bg-white border-2 border-gray-200 border-solid hover:border-gray-300 cursor-pointer hover:shadow-2xl">
+        <a href="Pages/shop1.html"><img src="Images/shop3.jpg" alt="shop3" width="200px"></a>
+        <p class="ml-2 mt-2 max-w-[200px]">Islamic Wooden Black Clock for Wall</p>
+        <p class="text-[#f85606] text-2xl ml-2">Rs.750</p>
+        <i class="fa-solid fa-star ml-2"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star">(173)</i>
+      </div>
+
+      <div class="shop-items bg-white border-2 border-gray-200 border-solid hover:border-gray-300 cursor-pointer hover:shadow-2xl">
+        <a href="Pages/shop1.html"><img src="Images/shop4.jpeg" alt="shop4" width="200px"></a>
+        <p class="ml-2 mt-2 max-w-[200px]">Digital Black Watch for unisex</p>
+        <p class="text-[#f85606] text-2xl ml-2">Rs.3,750</p>
+        <i class="fa-solid fa-star ml-2"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star">(122)</i>
+      </div>
+
+      <div class="shop-items bg-white border-2 border-gray-200 border-solid hover:border-gray-300 cursor-pointer hover:shadow-2xl">
+        <a href="Pages/shop1.html"><img src="Images/shop5.jpeg" alt="shop5" width="200px"></a>
+        <p class="ml-2 mt-2 max-w-[200px]">Smart Watch for Andriod and Iphone</p>
+        <p class="text-[#f85606] text-2xl ml-2">Rs.37,250</p>
+        <i class="fa-solid fa-star ml-2"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star">(142)</i>
+      </div>
+
+
+    </div>
+  </section>
+
+  <!-- FOOTER SECTION -->
+  <section class="w-full">
+    <div class="button flex justify-center items-center">
+      <button class="border-[#f85606] border-2 border-solid text-[#f85606] py-2 px-36 m-10">
+        LOAD MORE
+      </button>
+    </div>
+
+    <footer
+      class="flex sm:justify-between justify-center sm:items-start items-center bg-[#f1f1f1] max-w-[90%] m-auto px-2 sm:flex-row flex-col">
+      <div class="customer-care text-center">
+        <p class="text-[#f85606] text-3xl">Customer Care</p>
+        <ul class="text-sm mt-5">
+          <li>Help Center</li>
+          <li>How to Buy</li>
+          <li>Corporate & Bulk Purchasing</li>
+          <li>Returns & Refunds</li>
+          <li>Daraz Shop</li>
+          <li>Contact Us</li>
+          <li>Purchase Protection</li>
+          <li>Daraz Pick up Points</li>
+        </ul>
+
+        <p class="text-[#f85606] text-3xl mt-5">Make Money with Us</p>
+        <ul class="text-sm mt-5">
+          <li>
+            Daraz University
+          </li>
+          <li>
+            Sell on Daraz
+          </li>
+          <li>
+            Join Daraz Affiliate Program
+          </li>
+        </ul>
+      </div>
+
+      <div class="Daraz text-center">
+        <p class="text-[#f85606] text-3xl">Daraz</p>
+        <ul class="text-sm mt-5">
+          <li>About Us</li>
+          <li>Digital Payments</li>
+          <li>Daraz Donates</li>
+          <li>Daraz Blogs</li>
+          <li>Terms & Conditions</li>
+          <li>Privacy Policy</li>
+          <li>NTN Number : 4012118-6</li>
+          <li>STRN Number : 1700401211818</li>
+          <li>Online Shopping App</li>
+          <li>Online Grocery Shopping</li>
+          <li>Daraz Exclusive</li>
+        </ul>
+      </div>
+
+      <div class="Daraz-International text-center">
+        <p class="text-[#f85606] text-2xl">Daraz International</p>
+        <ul class="mt-5">
+          <li><img src="Images/pakistan.png" width="30px"
+              class="border-transparent border-2 border-solid rounded-[50%] inline-block" />Pakistan</li>
+          <li><img src="Images/bangladesh.png" width="30px"
+              class="border-transparent border-2 border-solid rounded-[50%] inline-block" />Bangladesh</li>
+          <li><img src="Images/srilanka.jpg" width="30px"
+              class="border-transparent border-2 border-solid rounded-[50%] inline-block" />Sri Lanka</li>
+          <li><img src="Images/myanmar.png" width="30px"
+              class="border-transparent border-2 border-solid rounded-[50%] inline-block" />Myanmar</li>
+          <li><img src="Images/nepal.png" width="30px"
+              class="border-transparent border-2 border-solid rounded-[50%] inline-block" />Nepal</li>
+        </ul>
+        <p class="text-[#f85606] text-2xl mt-5">Payment Methods</p>
+        <br>
+        <img src="Images/cod.png" alt="cod" width="34px" class="inline-block border-2 border-solid border-gray-200">
+        <img src="Images/visa.png" alt="cod" width="34px" class="inline-block border-2 border-solid border-gray-200">
+        <img src="Images/mastercard.png" alt="MASTERCARD" width="40px"
+          class="inline-block border-2 border-solid border-gray-200">
+        <img src="Images/easypaisa.png" alt="easypaisa" width="40px"
+          class="inline-block border-2 border-solid border-gray-200"> </br>
+        <img src="Images/jazzcash.png" alt="JAZZCASH" width="40px"
+          class="inline-block border-2 border-solid border-gray-200">
+        <img src="images/unionpay.png" alt="unionpay" width="40px"
+          class="inline-block border-2 border-solid border-gray-200">
+        <img src="Images/hbl.png" alt="hbl" width="40px" class="inline-block border-2 border-solid border-gray-200">
+        <img src="Images/monthly.png" alt="monthly" width="40px"
+          class="inline-block border-2 border-solid border-gray-200">
+        </ul>
+
+        <div class="flex justify-center items-start">
+          <p class="text-[#f85606] text-2xl mt-5 text-center">Verified by</p>
+          <img src="images/dararz.png" alt="verification" width="40px" height="50px" class="my-5 ml-3" />
+        </div>
+      </div>
+
+      <div class="Exclusive text-center">
+        <p class="text-[#f85606] text-2xl text-center">Exclusive Deals and Offers!</p>
+        <div class="images flex text-center items-center justify-center">
+          <img src="Images/qr.png" alt="qrcode" width="120px" class="mt-5" />
+          <img src="Images/download.png" alt="app" width="120px" />
+        </div>
+        <p class="text-[#f85606] text-2xl mt-5">Follow Us</p>
+        <div class="icons flex text-3xl justify-between mt-5 mb-5">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-solid fa-globe"></i>
+        </div>
+      </div>
+    </footer>
+  </section>
+
+</body>
+
+</html>
