@@ -1,3 +1,7 @@
+#Live Preview
+
+https://daraz-clone-by-safi.netlify.app/
+
 # Daraz-like E-commerce Website
 
 This project is a frontend implementation of an e-commerce website inspired by Daraz, using HTML and Tailwind CSS.
