@@ -1,6 +1,6 @@
-#Live Preview
+# Live Preview
 
-https://daraz-clone-by-safi.netlify.app/
+https://daraz-clone-by-safi.netlify.app
 
 # Daraz-like E-commerce Website
 
